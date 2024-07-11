@@ -1,11 +1,14 @@
 # grep-go
 ## Description:
+This project is a custom 'grep' implementation using regular expressions.
 
 ### What the program does:
 This CLI program runs a script which compares user input with a regex pattern. Exits with 0 on successful match and 1 if unsuccessful.
 
 ### How to use:
-echo <"input text"> | ./grep_go.sh -E <"pattern to match">
+```sh
+echo "input text" | ./grep_go.sh -E "pattern to match"
+```
 
 ## Patterns:
 - Literal character:
